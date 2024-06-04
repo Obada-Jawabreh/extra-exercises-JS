@@ -39,36 +39,78 @@
 // }
 
 // Q6
-let number = prompt("Enter a number between 1 and 9:");
+// let number = prompt("Enter a number between 1 and 9:");
 
-switch (Number(number)){
-    case 1:
-        alert("one");
-        break;
-    case 2:
-        alert("tow");
-        break;
-    case 3:
-        alert("three");
-        break;
-    case 4:
-        alert("four");
-        break;
-    case 5:
-        alert("five");
-        break;
-    case 6:
-        alert("six");
-        break;
-    case 7:
-        alert("seven");
-        break;
-    case 8:
-        alert("eight");
-        break;
-    case 9:
-        alert("nine");
-        break;
-    default:
-        console.log("Please try again");
+// switch (Number(number)){
+//     case 1:
+//         alert("one");
+//         break;
+//     case 2:
+//         alert("tow");
+//         break;
+//     case 3:
+//         alert("three");
+//         break;
+//     case 4:
+//         alert("four");
+//         break;
+//     case 5:
+//         alert("five");
+//         break;
+//     case 6:
+//         alert("six");
+//         break;
+//     case 7:
+//         alert("seven");
+//         break;
+//     case 8:
+//         alert("eight");
+//         break;
+//     case 9:
+//         alert("nine");
+//         break;
+//     default:
+//         console.log("Please try again");
+// }
+
+// Q7
+// for (let i = 0; i <= 5; i++) {
+//     alert(i);
+// }
+
+// Q8
+// let x=" "
+// for(let i=0; i<=5; i++){
+
+//     x+=i + " ";
+// }
+// alert(x);
+
+// Q9
+// let multiples = "";
+// for (let i = 0; i <= 20; i++) {
+//     if (i % 3 === 0) {
+//         multiples += i + " ";
+//     }
+// }
+// alert(multiples);
+
+// Q10
+// let condition=true;
+// let range=prompt("enter the number between 0 and 100")
+// while(condition){
+//     if(range>=0 && range<=100){
+//         alert(range);
+//         break;}
+//     else
+//     range=prompt("please enter the number between 0 and 100");
+
+// }
+
+// Q11
+sum=0;
+let num=prompt("enter the number for sum")
+for(let i=0; i<=num; i++){
+    sum+=i;
 }
+alert("the sumation is = "+sum);
